@@ -7,7 +7,7 @@ with orders as (
         status
 
     from raw.jaffle_shop.orders
-
+    -- completed, shipped, returned, placed, return pending
 )
 
 select * from orders
